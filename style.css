@@ -228,13 +228,17 @@ body {
     border-color: var(--cor-terciaria);
 }
 
-@media(max-width:600px)
+@media(max-width:768px)
 {
 .header{
     justify-content: center;
     width: 90%;
     font-size: 0.6rem;
     padding-bottom: 2%;
+}
+
+.titulo-header{
+    text-align: center;
 }
 .logo{
     width: 20%;
@@ -265,5 +269,19 @@ margin-bottom: 3%;
 
     .botaocopiar:hover{
         height: 55px;
+    }
+}
+
+@media(max-width:400px)
+{
+    .botoes{
+        flex-direction: column;
+        align-items: center;    }
+
+    .titulo-header{
+        font-size: 0.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
     }
 }
