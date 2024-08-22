@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./style.css">
+ </head> 
+ 
+<body>
+    <header class="header">
+<img class="logo" src="detetive pikachu logo.png" alt="Pokemon Pikachu Live-action">
+<div class="titulo-header">
+    <h1>Detetive Pikachu e o Decodificador De Textos</h1>
+</div>
+    </header>
+    <main class="campos">
+
+<section class="camposdeentrada">
+
+<textarea class="campodetexto" placeholder="Digite seu texto" minlength="1" maxlength="500" rows="22"></textarea>
+
+
+<div class="aviso">
+<img class="imgexclamacao" src="WhatsApp_Image_2024-08-21_at_16.50.52-removebg-preview.png">
+<p1>Apenas letras minúsculas e sem acento.</p1>
+</div>
+
+<div class="botoes">
+<button class="botaocriptografar" onclick="botaocriptografar()">Criptografar</button>
+<button class="botaodescriptografar" onclick="botaodescriptografar()">Descriptografar</button>
+</div>
+
+</section>
+
+<section class="campodesaida">
+    <div class="hidden">
+<img class="imgpikachu" src="detetive pikachu.png" alt="Pokemon Pikachu Live-action com uma lupa">
+<h1 id=titulocampodesaida class="titulocampodesaida">Nenhuma mensagem encontrada</h1>
+<p1 id=paragrafocampodesaida class="paragrafocampodesaida">Digite um texto que você deseja criptografar ou descriptografar.</p1>
+</div>
+<div class="hidden2">
+    <textarea id=mensagemparacopiar disabled="true" class="mensagem"></textarea>
+    <button class="botaocopiar" onclick="copiartexto()">Copiar</button>
+</div>
+</section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script defer src="app.js"></script>
+</html>

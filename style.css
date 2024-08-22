@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-principal: #FAEBCD;
+    --cor-secundaria: white;
+    --cor-terciaria: #F7C873;
+    --cor-quartenaria: #000000;
+    --cor-textos: gray;
+
+    --fonte-principal: "Inter", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+}
+
+/*Elementos do Cabeçalho*/
+.header {
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    font-family:var(--fonte-principal);
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding-left: 2%;
+    margin-top: 1%;
+}
+
+.logo {
+    width: 7%;
+}
+
+.titulo-header {
+    background-color: var(--cor-terciaria);
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+}
+
+/* Elementos Campos De Entrada */
+.campos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.camposdeentrada {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.campodetexto {
+    background-color: var(--cor-principal);
+    border-color: var(--cor-secundaria);
+    border-radius: 20px;
+    border-width: 5px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.375rem;
+    padding: 1%;
+    color: var(--cor-textos);
+    resize: none;
+}
+
+.aviso {
+    color: var(--cor-textos);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 0.75rem;
+    height: 1%;
+}
+
+.imgexclamacao {
+    width: 2%;
+}
+
+.botoes {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.botaocriptografar {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    border-width: 0px;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+}
+
+.botaodescriptografar {
+    color: var(--cor-quartenaria);
+    background-color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-color: var(--cor-quartenaria);
+    border-width: 2px;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+}
+
+.botaocriptografar:hover {
+    font-size: 1.5625rem;
+    width: 350px;
+    height: 70px;
+    border-color: var(--cor-secundaria);
+    border-width: 3px;
+}
+
+.botaodescriptografar:hover {
+    font-size: 1.5625rem;
+    width: 350px;
+    height: 70px;
+    border-color: var(--cor-secundaria);
+    border-width: 3px;
+}
+
+.campodesaida {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-secundaria);
+    border-radius: 32px;
+    width: 31%;
+}
+
+.hidden {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20%;
+    padding-bottom:20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 30px;
+    text-align: center;
+    display: block;
+}
+
+.imgpikachu {
+    height: auto;
+    width: 60%;
+    padding-bottom: 5%;
+}
+
+.titulocampodesaida {
+    color: var(--cor-quartenaria);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+
+.paragrafocampodesaida {
+    color: var(--cor-textos);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.hidden2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    display: none;
+    padding-left: 3%;
+}
+
+.mensagem {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--cor-textos);
+    border: none;
+    resize: none;
+    height: 550%;
+    width: 91%;
+    margin: 2%;
+}
+
+.botaocopiar {
+    color: var(--cor-quartenaria);
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-color: var(--cor-quartenaria);
+    border-width: 2px;
+    border-radius: 24px;
+    width: 40%;
+    height: 50%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.botaocopiar:hover {
+    width: 40%;
+    height: 50%;
+    border-color: var(--cor-terciaria);
+}
+
+@media(max-width:600px)
+{
+.header{
+    justify-content: center;
+    width: 90%;
+    font-size: 0.6rem;
+    padding-bottom: 2%;
+}
+.logo{
+    width: 20%;
+}
+    .campos{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .camposdeentrada{
+        width: 90%;
+    }
+
+    .campodesaida{
+        width: 90%;
+        margin-bottom: 3%;
+    }
+
+    .mensagem
+    {
+        height: 500px;
+    }
+
+    .botaocopiar{
+        height: 50px;
+margin-bottom: 3%;
+    }
+
+    .botaocopiar:hover{
+        height: 55px;
+    }
+}
