@@ -9,7 +9,7 @@
   <p align="center">
     <strong>Este é um decodificador de textos temático de Detetive Pikachu, que fiz durante o programa Oracle One + Alura.</strong>
   </p>
-[<img src="./Screenshot site.jpg" width="144"/>]
+<img src="./Screenshot site.jpg" width="500"/>
 </div>
 
 ## <a name="about"> Sobre
