@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[<img src="./resources/icon.png" width="144"/>](https://hydralauncher.site)
+[<img src="./Icon Readme.png" width="144"/>](https://hydralauncher.site)
 
   <h1 align="center">Decodificador De Textos</h1>
   
