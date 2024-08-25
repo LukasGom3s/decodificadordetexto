@@ -9,7 +9,7 @@
   <p align="center">
     <strong>Este é um decodificador de textos temático de Detetive Pikachu, que fiz durante o programa Oracle One + Alura.</strong>
   </p>
-
+![Hydra Catalogue](.Screenshot.jpg)
 </div>
 
 ## <a name="about"> Sobre
