@@ -25,11 +25,12 @@ Como funciona:
 
 Digite seu texto e escolha se deseja criptografar ou descriptografar. Nosso algoritmo substituirá as vogais por sequências específicas:
 
-e -> enter
-i -> imes
-a -> ai
-o -> ober
-u -> ufat
+- e -> enter
+- i -> imes
+- a -> ai
+- o -> ober
+- u -> ufat
+
 O que aprendi:
 
 A criação deste projeto foi uma jornada de aprendizado. Enfrentei desafios na implementação da lógica de criptografia em JavaScript, mas a satisfação de ver o resultado final superou todas as dificuldades.
