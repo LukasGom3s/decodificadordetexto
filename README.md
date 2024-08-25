@@ -34,3 +34,5 @@ Digite seu texto e escolha se deseja criptografar ou descriptografar. Nosso algo
 O que aprendi:
 
 A criação deste projeto foi uma jornada de aprendizado. Enfrentei desafios na implementação da lógica de criptografia em JavaScript, mas a satisfação de ver o resultado final superou todas as dificuldades.
+
+- O projeto está disponível para acesso em decodificadordetexto-flax.vercel.app
